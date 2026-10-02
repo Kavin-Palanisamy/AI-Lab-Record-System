@@ -1,0 +1,1103 @@
+{
+  "dataset_name": "SecureLab Real EEE Pilot Laboratory Record Dataset",
+  "dataset_version": "1.0-pilot",
+  "institution": "Department of Electrical and Electronics Engineering",
+  "academic_year": "2026-2027",
+  "total_document_pairs": 44,
+  "total_images": 88,
+  "pilot_students_count": 6,
+  "experiments_count": 5,
+  "attacks_count": 14,
+  "samples": [
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_01-EXP01",
+      "student_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-1",
+      "experiment_title": "Thevenin and Norton Theorems",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_01-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_01-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy S22 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_01",
+        "total_mark": 9.0,
+        "date": "2026-09-02",
+        "page_range": "1-6",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_01-EXP02",
+      "student_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-2",
+      "experiment_title": "Load Test on DC Shunt Motor",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_01-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_01-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy S22 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_01",
+        "total_mark": 9.0,
+        "date": "2026-09-09",
+        "page_range": "7-12",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_01-EXP03",
+      "student_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-3",
+      "experiment_title": "OC and SC Tests on Transformer",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_01-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_01-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy S22 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_01",
+        "total_mark": 9.0,
+        "date": "2026-09-16",
+        "page_range": "13-18",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_01-EXP04",
+      "student_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_01-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_01-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy S22 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_01",
+        "total_mark": 9.0,
+        "date": "2026-09-23",
+        "page_range": "19-24",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_01-EXP05",
+      "student_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR & TRIAC Characteristics",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_01-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_01-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy S22 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_01",
+        "total_mark": 9.0,
+        "date": "2026-09-30",
+        "page_range": "25-30",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_02-EXP01",
+      "student_pseudonym": "pilot_student_02",
+      "experiment_id": "exp-1",
+      "experiment_title": "Thevenin and Norton Theorems",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_02-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_02-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Redmi Note 11 (48MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_02",
+        "total_mark": 9.0,
+        "date": "2026-09-02",
+        "page_range": "1-6",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_02-EXP02",
+      "student_pseudonym": "pilot_student_02",
+      "experiment_id": "exp-2",
+      "experiment_title": "Load Test on DC Shunt Motor",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_02-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_02-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Redmi Note 11 (48MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_02",
+        "total_mark": 9.0,
+        "date": "2026-09-09",
+        "page_range": "7-12",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_02-EXP03",
+      "student_pseudonym": "pilot_student_02",
+      "experiment_id": "exp-3",
+      "experiment_title": "OC and SC Tests on Transformer",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_02-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_02-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Redmi Note 11 (48MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_02",
+        "total_mark": 9.0,
+        "date": "2026-09-16",
+        "page_range": "13-18",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_02-EXP04",
+      "student_pseudonym": "pilot_student_02",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_02-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_02-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Redmi Note 11 (48MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_02",
+        "total_mark": 9.0,
+        "date": "2026-09-23",
+        "page_range": "19-24",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_02-EXP05",
+      "student_pseudonym": "pilot_student_02",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR & TRIAC Characteristics",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_02-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_02-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Redmi Note 11 (48MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_02",
+        "total_mark": 9.0,
+        "date": "2026-09-30",
+        "page_range": "25-30",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_03-EXP01",
+      "student_pseudonym": "pilot_student_03",
+      "experiment_id": "exp-1",
+      "experiment_title": "Thevenin and Norton Theorems",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_03-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_03-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "OnePlus Nord CE2 (64MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_03",
+        "total_mark": 9.0,
+        "date": "2026-09-02",
+        "page_range": "1-6",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_03-EXP02",
+      "student_pseudonym": "pilot_student_03",
+      "experiment_id": "exp-2",
+      "experiment_title": "Load Test on DC Shunt Motor",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_03-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_03-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "OnePlus Nord CE2 (64MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_03",
+        "total_mark": 9.0,
+        "date": "2026-09-09",
+        "page_range": "7-12",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_03-EXP03",
+      "student_pseudonym": "pilot_student_03",
+      "experiment_id": "exp-3",
+      "experiment_title": "OC and SC Tests on Transformer",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_03-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_03-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "OnePlus Nord CE2 (64MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_03",
+        "total_mark": 9.0,
+        "date": "2026-09-16",
+        "page_range": "13-18",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_03-EXP04",
+      "student_pseudonym": "pilot_student_03",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_03-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_03-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "OnePlus Nord CE2 (64MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_03",
+        "total_mark": 9.0,
+        "date": "2026-09-23",
+        "page_range": "19-24",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_03-EXP05",
+      "student_pseudonym": "pilot_student_03",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR & TRIAC Characteristics",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_03-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_03-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "OnePlus Nord CE2 (64MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_03",
+        "total_mark": 9.0,
+        "date": "2026-09-30",
+        "page_range": "25-30",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_04-EXP01",
+      "student_pseudonym": "pilot_student_04",
+      "experiment_id": "exp-1",
+      "experiment_title": "Thevenin and Norton Theorems",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_04-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_04-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Realme 9 Pro (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_04",
+        "total_mark": 9.0,
+        "date": "2026-09-02",
+        "page_range": "1-6",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_04-EXP02",
+      "student_pseudonym": "pilot_student_04",
+      "experiment_id": "exp-2",
+      "experiment_title": "Load Test on DC Shunt Motor",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_04-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_04-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Realme 9 Pro (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_04",
+        "total_mark": 9.0,
+        "date": "2026-09-09",
+        "page_range": "7-12",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_04-EXP03",
+      "student_pseudonym": "pilot_student_04",
+      "experiment_id": "exp-3",
+      "experiment_title": "OC and SC Tests on Transformer",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_04-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_04-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Realme 9 Pro (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_04",
+        "total_mark": 9.0,
+        "date": "2026-09-16",
+        "page_range": "13-18",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_04-EXP04",
+      "student_pseudonym": "pilot_student_04",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_04-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_04-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Realme 9 Pro (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_04",
+        "total_mark": 9.0,
+        "date": "2026-09-23",
+        "page_range": "19-24",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_04-EXP05",
+      "student_pseudonym": "pilot_student_04",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR & TRIAC Characteristics",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_04-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_04-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Realme 9 Pro (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_04",
+        "total_mark": 9.0,
+        "date": "2026-09-30",
+        "page_range": "25-30",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_05-EXP01",
+      "student_pseudonym": "pilot_student_05",
+      "experiment_id": "exp-1",
+      "experiment_title": "Thevenin and Norton Theorems",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_05-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_05-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Vivo V25 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_05",
+        "total_mark": 9.0,
+        "date": "2026-09-02",
+        "page_range": "1-6",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_05-EXP02",
+      "student_pseudonym": "pilot_student_05",
+      "experiment_id": "exp-2",
+      "experiment_title": "Load Test on DC Shunt Motor",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_05-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_05-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Vivo V25 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_05",
+        "total_mark": 9.0,
+        "date": "2026-09-09",
+        "page_range": "7-12",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_05-EXP03",
+      "student_pseudonym": "pilot_student_05",
+      "experiment_id": "exp-3",
+      "experiment_title": "OC and SC Tests on Transformer",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_05-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_05-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Vivo V25 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_05",
+        "total_mark": 9.0,
+        "date": "2026-09-16",
+        "page_range": "13-18",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_05-EXP04",
+      "student_pseudonym": "pilot_student_05",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_05-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_05-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Vivo V25 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_05",
+        "total_mark": 9.0,
+        "date": "2026-09-23",
+        "page_range": "19-24",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_05-EXP05",
+      "student_pseudonym": "pilot_student_05",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR & TRIAC Characteristics",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_05-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_05-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Vivo V25 (12MP)",
+        "quality_condition": "NORMAL",
+        "ink": "Blue ballpoint"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_05",
+        "total_mark": 9.0,
+        "date": "2026-09-30",
+        "page_range": "25-30",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_06-EXP01",
+      "student_pseudonym": "pilot_student_06",
+      "experiment_id": "exp-1",
+      "experiment_title": "Thevenin and Norton Theorems",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_06-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_06-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy A53 (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_06",
+        "total_mark": 9.0,
+        "date": "2026-09-02",
+        "page_range": "1-6",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_06-EXP02",
+      "student_pseudonym": "pilot_student_06",
+      "experiment_id": "exp-2",
+      "experiment_title": "Load Test on DC Shunt Motor",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_06-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_06-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy A53 (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_06",
+        "total_mark": 9.0,
+        "date": "2026-09-09",
+        "page_range": "7-12",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_06-EXP03",
+      "student_pseudonym": "pilot_student_06",
+      "experiment_id": "exp-3",
+      "experiment_title": "OC and SC Tests on Transformer",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_06-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_06-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy A53 (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_06",
+        "total_mark": 9.0,
+        "date": "2026-09-16",
+        "page_range": "13-18",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_06-EXP04",
+      "student_pseudonym": "pilot_student_06",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_06-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_06-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy A53 (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_06",
+        "total_mark": 9.0,
+        "date": "2026-09-23",
+        "page_range": "19-24",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-PILOT_STUDENT_06-EXP05",
+      "student_pseudonym": "pilot_student_06",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR & TRIAC Characteristics",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PILOT-PILOT_STUDENT_06-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PILOT-PILOT_STUDENT_06-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "Samsung Galaxy A53 (12MP)",
+        "quality_condition": "SHADOW",
+        "ink": "Black gel pen"
+      },
+      "ground_truth": {
+        "genuine_owner": "pilot_student_06",
+        "total_mark": 9.0,
+        "date": "2026-09-30",
+        "page_range": "25-30",
+        "ownership_decision": "PASS",
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_A_GENUINE_KAVIN",
+      "student_pseudonym": "pilot_student_01",
+      "victim_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_A_GENUINE_KAVIN",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_A_GENUINE_KAVIN_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_A_GENUINE_KAVIN_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "PASS",
+        "expected_signal": "NONE",
+        "is_genuine": true,
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_B_GENUINE_ARJUN",
+      "student_pseudonym": "pilot_student_02",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_B_GENUINE_ARJUN",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_B_GENUINE_ARJUN_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_B_GENUINE_ARJUN_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "PASS",
+        "expected_signal": "NONE",
+        "is_genuine": true,
+        "is_faculty_confirmed": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_C_KAVIN_SUBMITTED_BY_ARJUN",
+      "student_pseudonym": "pilot_student_02",
+      "victim_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_C_KAVIN_SUBMITTED_BY_ARJUN",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_C_KAVIN_SUBMITTED_BY_ARJUN_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_C_KAVIN_SUBMITTED_BY_ARJUN_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "REJECT",
+        "expected_signal": "EXACT_REUSE",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_D_ARJUN_SUBMITTED_BY_KAVIN",
+      "student_pseudonym": "pilot_student_01",
+      "victim_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_D_ARJUN_SUBMITTED_BY_KAVIN",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_D_ARJUN_SUBMITTED_BY_KAVIN_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_D_ARJUN_SUBMITTED_BY_KAVIN_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "REJECT",
+        "expected_signal": "EXACT_REUSE",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_E_REPHOTOGRAPHED_VICTIM_PAGE",
+      "student_pseudonym": "pilot_student_02",
+      "victim_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_E_REPHOTOGRAPHED_VICTIM_PAGE",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_E_REPHOTOGRAPHED_VICTIM_PAGE_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_E_REPHOTOGRAPHED_VICTIM_PAGE_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "PERCEPTUAL_REUSE",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_F_SCREENSHOT_OF_VICTIM_PAGE",
+      "student_pseudonym": "pilot_student_02",
+      "victim_pseudonym": "pilot_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_F_SCREENSHOT_OF_VICTIM_PAGE",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_F_SCREENSHOT_OF_VICTIM_PAGE_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_F_SCREENSHOT_OF_VICTIM_PAGE_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "PERCEPTUAL_REUSE",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_G_RESIZE",
+      "student_pseudonym": "pilot_student_02",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_G_RESIZE",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_G_RESIZE_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_G_RESIZE_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "PERCEPTUAL_REUSE",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_H_RECOMPRESSION",
+      "student_pseudonym": "pilot_student_02",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_H_RECOMPRESSION",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_H_RECOMPRESSION_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_H_RECOMPRESSION_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "PERCEPTUAL_REUSE",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_I_BRIGHTNESS_MODIFICATION",
+      "student_pseudonym": "pilot_student_02",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_I_BRIGHTNESS_MODIFICATION",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_I_BRIGHTNESS_MODIFICATION_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_I_BRIGHTNESS_MODIFICATION_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "PERCEPTUAL_REUSE",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_J_MILD_CROP",
+      "student_pseudonym": "pilot_student_02",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_J_MILD_CROP",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_J_MILD_CROP_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_J_MILD_CROP_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "PERCEPTUAL_REUSE",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_K_WRONG_EXPERIMENT",
+      "student_pseudonym": "pilot_student_01",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_K_WRONG_EXPERIMENT",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_K_WRONG_EXPERIMENT_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_K_WRONG_EXPERIMENT_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "EXPERIMENT_MISMATCH",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_L_WRONG_SESSION",
+      "student_pseudonym": "pilot_student_01",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_L_WRONG_SESSION",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_L_WRONG_SESSION_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_L_WRONG_SESSION_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "DATE_MISMATCH",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_M_MIXED_INDEX_EVALUATION_PAIR",
+      "student_pseudonym": "pilot_student_01",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_M_MIXED_INDEX_EVALUATION_PAIR",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_M_MIXED_INDEX_EVALUATION_PAIR_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_M_MIXED_INDEX_EVALUATION_PAIR_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "CROSS_PAGE_INCONSISTENCY",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PILOT-ATTACK-ATTACK_N_ALTERED_MARK",
+      "student_pseudonym": "pilot_student_01",
+      "victim_pseudonym": "NONE",
+      "experiment_id": "exp-4",
+      "experiment_title": "Series & Parallel RLC Resonance",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_N_ALTERED_MARK",
+      "files": {
+        "index_image": "test/PILOT-ATTACK-ATTACK_N_ALTERED_MARK_index.png",
+        "evaluation_image": "test/PILOT-ATTACK-ATTACK_N_ALTERED_MARK_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "expected_signal": "MARK_MISMATCH",
+        "is_genuine": false,
+        "is_faculty_confirmed": false
+      },
+      "split": "test"
+    }
+  ]
+}

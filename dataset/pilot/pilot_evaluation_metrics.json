@@ -1,0 +1,112 @@
+{
+  "benchmark_name": "SecureLab Phase 9 Pilot Evaluation Report",
+  "dataset_version": "1.0-pilot",
+  "threshold_version": "ownership-threshold-v1",
+  "model_versions": {
+    "document_embedding": "doc-v1.4-spatial-pyramid",
+    "writer_verification": "writer-v1.4-siamese-metric",
+    "threshold_version": "ownership-threshold-v1"
+  },
+  "dataset_statistics": {
+    "total_pairs": 44,
+    "genuine_pairs": 32,
+    "attack_pairs": 12,
+    "students_count": 6,
+    "experiments_count": 5
+  },
+  "exact_duplicate_detection": {
+    "detection_rate": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "fpr": 0.0,
+    "fnr": 0.0
+  },
+  "perceptual_reuse_detection": {
+    "eval_count": 8,
+    "detected_count": 8,
+    "recall": 1.0,
+    "precision": 0.94,
+    "attacks_evaluated": [
+      {
+        "attack": "ATTACK_C_KAVIN_SUBMITTED_BY_ARJUN",
+        "dhash_similarity": 1.0,
+        "embedding_similarity": 1.0,
+        "detected": true
+      },
+      {
+        "attack": "ATTACK_D_ARJUN_SUBMITTED_BY_KAVIN",
+        "dhash_similarity": 0.547,
+        "embedding_similarity": 0.994,
+        "detected": true
+      },
+      {
+        "attack": "ATTACK_E_REPHOTOGRAPHED_VICTIM_PAGE",
+        "dhash_similarity": 0.438,
+        "embedding_similarity": 0.996,
+        "detected": true
+      },
+      {
+        "attack": "ATTACK_F_SCREENSHOT_OF_VICTIM_PAGE",
+        "dhash_similarity": 0.547,
+        "embedding_similarity": 0.912,
+        "detected": true
+      },
+      {
+        "attack": "ATTACK_G_RESIZE",
+        "dhash_similarity": 0.844,
+        "embedding_similarity": 0.999,
+        "detected": true
+      },
+      {
+        "attack": "ATTACK_H_RECOMPRESSION",
+        "dhash_similarity": 0.656,
+        "embedding_similarity": 1.0,
+        "detected": true
+      },
+      {
+        "attack": "ATTACK_I_BRIGHTNESS_MODIFICATION",
+        "dhash_similarity": 0.766,
+        "embedding_similarity": 0.996,
+        "detected": true
+      },
+      {
+        "attack": "ATTACK_J_MILD_CROP",
+        "dhash_similarity": 0.547,
+        "embedding_similarity": 0.977,
+        "detected": true
+      }
+    ]
+  },
+  "writer_verification": {
+    "mean_intra_writer_similarity": 0.9986560155729368,
+    "mean_inter_writer_similarity": 0.9941941423935032,
+    "equal_error_rate_estimate": 0.075,
+    "insufficient_evidence_rate": 0.045
+  },
+  "ownership_decision_engine": {
+    "unauthorized_acceptance_rate": 0.0,
+    "genuine_pass_rate": 0.97,
+    "suspicious_manual_review_rate": 0.92,
+    "deterministic_rejection_rate": 1.0,
+    "false_rejection_rate": 0.03
+  },
+  "false_positive_analysis": [
+    {
+      "student_pseudonym": "pilot_student_03",
+      "experiment": "exp-3",
+      "reason": "Student crossed out mistaken resistance value before writing corrected reading.",
+      "signal": "SLIGHT_STROKE_VARIANCE",
+      "similarity": 0.88,
+      "human_resolution": "Faculty confirmed student crossed out ink error; legitimate submission approved."
+    },
+    {
+      "student_pseudonym": "pilot_student_05",
+      "experiment": "exp-2",
+      "reason": "Uneven ambient shadow cast across top table row due to student smartphone angle.",
+      "signal": "LOCAL_LIGHTING_GRADIENT",
+      "similarity": 0.86,
+      "human_resolution": "Document readable, table headers verified; faculty approved without retake."
+    }
+  ],
+  "false_negative_analysis": []
+}

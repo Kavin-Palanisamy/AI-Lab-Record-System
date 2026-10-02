@@ -1,0 +1,24 @@
+{
+  "dataset_size": 54,
+  "students_count": 8,
+  "experiments_count": 5,
+  "exact_duplicate_rate": 1.0,
+  "perceptual_reuse": {
+    "transform_eval_count": 14,
+    "detection_rate": 1.0
+  },
+  "writer_verification": {
+    "mean_same_writer_sim": 0.999735078070966,
+    "mean_diff_writer_sim": 0.9994898161540112,
+    "separation_margin": 0.000245261916954731,
+    "precision": 0.16666666666666666,
+    "recall": 1.0,
+    "fpr": 1.0,
+    "fnr": 0.0
+  },
+  "overall_classification": {
+    "total_evaluated": 54,
+    "manual_review_rate_adversarial": 0.93,
+    "pass_rate_genuine": 0.96
+  }
+}

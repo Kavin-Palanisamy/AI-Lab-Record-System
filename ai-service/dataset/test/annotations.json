@@ -1,0 +1,47 @@
+{
+  "dataset_version": "1.0.0",
+  "department": "Electrical and Electronics Engineering",
+  "samples": [
+    {
+      "sample_id": "EEE-EXP01-048-GENUINE",
+      "template_id": "EEE-TRANS-OCSC-V1",
+      "ground_truth": {
+        "register_number": "048",
+        "faculty_awarded_mark": 8.5,
+        "is_tampered": false,
+        "quality": "GOOD"
+      }
+    },
+    {
+      "sample_id": "EEE-EXP01-048-ALTERED",
+      "template_id": "EEE-TRANS-OCSC-V1",
+      "ground_truth": {
+        "register_number": "048",
+        "faculty_awarded_mark": 8.5,
+        "photograph_mark": 10.0,
+        "is_tampered": true,
+        "quality": "GOOD"
+      }
+    },
+    {
+      "sample_id": "EEE-EXP01-052-MISUSE",
+      "template_id": "EEE-TRANS-OCSC-V1",
+      "ground_truth": {
+        "register_number": "052",
+        "faculty_awarded_mark": 8.0,
+        "is_tampered": false,
+        "quality": "GOOD"
+      }
+    },
+    {
+      "sample_id": "EEE-EXP01-048-BLUR",
+      "template_id": "EEE-TRANS-OCSC-V1",
+      "ground_truth": {
+        "register_number": "048",
+        "faculty_awarded_mark": 8.5,
+        "is_tampered": false,
+        "quality": "RETAKE_REQUIRED"
+      }
+    }
+  ]
+}

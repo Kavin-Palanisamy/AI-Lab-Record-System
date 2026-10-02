@@ -1,0 +1,1445 @@
+{
+  "dataset_version": "1.0-phase8",
+  "total_samples": 54,
+  "splits": {
+    "train": 15,
+    "validation": 10,
+    "test": 29
+  },
+  "samples": [
+    {
+      "sample_id": "PAIR-ANON_STUDENT_01-EXP01",
+      "student_pseudonym": "anon_student_01",
+      "experiment_id": "exp-1",
+      "experiment_title": "Transformer OC/SC Test",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_01-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_01-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-10",
+        "page_range": "1-6",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_01-EXP02",
+      "student_pseudonym": "anon_student_01",
+      "experiment_id": "exp-2",
+      "experiment_title": "DC Shunt Motor Load Test",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_01-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_01-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-24",
+        "page_range": "7-13",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_01-EXP03",
+      "student_pseudonym": "anon_student_01",
+      "experiment_id": "exp-3",
+      "experiment_title": "Three Phase Induction Motor",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_01-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_01-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-07",
+        "page_range": "14-20",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_01-EXP04",
+      "student_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_01-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_01-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-28",
+        "page_range": "21-27",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_01-EXP05",
+      "student_pseudonym": "anon_student_01",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR Phase Control Inverter",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_01-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_01-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-10-12",
+        "page_range": "28-34",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_02-EXP01",
+      "student_pseudonym": "anon_student_02",
+      "experiment_id": "exp-1",
+      "experiment_title": "Transformer OC/SC Test",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_02-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_02-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-10",
+        "page_range": "1-6",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_02-EXP02",
+      "student_pseudonym": "anon_student_02",
+      "experiment_id": "exp-2",
+      "experiment_title": "DC Shunt Motor Load Test",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_02-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_02-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-24",
+        "page_range": "7-13",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_02-EXP03",
+      "student_pseudonym": "anon_student_02",
+      "experiment_id": "exp-3",
+      "experiment_title": "Three Phase Induction Motor",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_02-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_02-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-07",
+        "page_range": "14-20",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_02-EXP04",
+      "student_pseudonym": "anon_student_02",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_02-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_02-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-28",
+        "page_range": "21-27",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_02-EXP05",
+      "student_pseudonym": "anon_student_02",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR Phase Control Inverter",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_02-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_02-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-10-12",
+        "page_range": "28-34",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_03-EXP01",
+      "student_pseudonym": "anon_student_03",
+      "experiment_id": "exp-1",
+      "experiment_title": "Transformer OC/SC Test",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_03-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_03-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-10",
+        "page_range": "1-6",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_03-EXP02",
+      "student_pseudonym": "anon_student_03",
+      "experiment_id": "exp-2",
+      "experiment_title": "DC Shunt Motor Load Test",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_03-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_03-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-24",
+        "page_range": "7-13",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_03-EXP03",
+      "student_pseudonym": "anon_student_03",
+      "experiment_id": "exp-3",
+      "experiment_title": "Three Phase Induction Motor",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_03-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_03-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-07",
+        "page_range": "14-20",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_03-EXP04",
+      "student_pseudonym": "anon_student_03",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_03-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_03-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-28",
+        "page_range": "21-27",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_03-EXP05",
+      "student_pseudonym": "anon_student_03",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR Phase Control Inverter",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_03-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_03-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-10-12",
+        "page_range": "28-34",
+        "ownership_decision": "PASS"
+      },
+      "split": "train"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_04-EXP01",
+      "student_pseudonym": "anon_student_04",
+      "experiment_id": "exp-1",
+      "experiment_title": "Transformer OC/SC Test",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_04-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_04-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-10",
+        "page_range": "1-6",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_04-EXP02",
+      "student_pseudonym": "anon_student_04",
+      "experiment_id": "exp-2",
+      "experiment_title": "DC Shunt Motor Load Test",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_04-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_04-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-24",
+        "page_range": "7-13",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_04-EXP03",
+      "student_pseudonym": "anon_student_04",
+      "experiment_id": "exp-3",
+      "experiment_title": "Three Phase Induction Motor",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_04-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_04-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-07",
+        "page_range": "14-20",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_04-EXP04",
+      "student_pseudonym": "anon_student_04",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_04-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_04-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-28",
+        "page_range": "21-27",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_04-EXP05",
+      "student_pseudonym": "anon_student_04",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR Phase Control Inverter",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_04-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_04-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-10-12",
+        "page_range": "28-34",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_05-EXP01",
+      "student_pseudonym": "anon_student_05",
+      "experiment_id": "exp-1",
+      "experiment_title": "Transformer OC/SC Test",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_05-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_05-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-10",
+        "page_range": "1-6",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_05-EXP02",
+      "student_pseudonym": "anon_student_05",
+      "experiment_id": "exp-2",
+      "experiment_title": "DC Shunt Motor Load Test",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_05-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_05-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-24",
+        "page_range": "7-13",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_05-EXP03",
+      "student_pseudonym": "anon_student_05",
+      "experiment_id": "exp-3",
+      "experiment_title": "Three Phase Induction Motor",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_05-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_05-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-07",
+        "page_range": "14-20",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_05-EXP04",
+      "student_pseudonym": "anon_student_05",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_05-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_05-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-28",
+        "page_range": "21-27",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_05-EXP05",
+      "student_pseudonym": "anon_student_05",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR Phase Control Inverter",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_05-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_05-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-10-12",
+        "page_range": "28-34",
+        "ownership_decision": "PASS"
+      },
+      "split": "validation"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_06-EXP01",
+      "student_pseudonym": "anon_student_06",
+      "experiment_id": "exp-1",
+      "experiment_title": "Transformer OC/SC Test",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_06-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_06-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-10",
+        "page_range": "1-6",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_06-EXP02",
+      "student_pseudonym": "anon_student_06",
+      "experiment_id": "exp-2",
+      "experiment_title": "DC Shunt Motor Load Test",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_06-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_06-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-24",
+        "page_range": "7-13",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_06-EXP03",
+      "student_pseudonym": "anon_student_06",
+      "experiment_id": "exp-3",
+      "experiment_title": "Three Phase Induction Motor",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_06-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_06-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-07",
+        "page_range": "14-20",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_06-EXP04",
+      "student_pseudonym": "anon_student_06",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_06-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_06-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-28",
+        "page_range": "21-27",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_06-EXP05",
+      "student_pseudonym": "anon_student_06",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR Phase Control Inverter",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_06-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_06-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-10-12",
+        "page_range": "28-34",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_07-EXP01",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-1",
+      "experiment_title": "Transformer OC/SC Test",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_07-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_07-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-10",
+        "page_range": "1-6",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_07-EXP02",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-2",
+      "experiment_title": "DC Shunt Motor Load Test",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_07-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_07-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-24",
+        "page_range": "7-13",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_07-EXP03",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-3",
+      "experiment_title": "Three Phase Induction Motor",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_07-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_07-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-07",
+        "page_range": "14-20",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_07-EXP04",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_07-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_07-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-28",
+        "page_range": "21-27",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_07-EXP05",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR Phase Control Inverter",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_07-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_07-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-10-12",
+        "page_range": "28-34",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_08-EXP01",
+      "student_pseudonym": "anon_student_08",
+      "experiment_id": "exp-1",
+      "experiment_title": "Transformer OC/SC Test",
+      "session_pseudonym": "sess_eee_2026_01",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_08-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_08-EXP01_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-10",
+        "page_range": "1-6",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_08-EXP02",
+      "student_pseudonym": "anon_student_08",
+      "experiment_id": "exp-2",
+      "experiment_title": "DC Shunt Motor Load Test",
+      "session_pseudonym": "sess_eee_2026_02",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_08-EXP02_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_08-EXP02_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-08-24",
+        "page_range": "7-13",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_08-EXP03",
+      "student_pseudonym": "anon_student_08",
+      "experiment_id": "exp-3",
+      "experiment_title": "Three Phase Induction Motor",
+      "session_pseudonym": "sess_eee_2026_03",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_08-EXP03_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_08-EXP03_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-07",
+        "page_range": "14-20",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_08-EXP04",
+      "student_pseudonym": "anon_student_08",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "session_pseudonym": "sess_eee_2026_04",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_08-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_08-EXP04_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-09-28",
+        "page_range": "21-27",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-ANON_STUDENT_08-EXP05",
+      "student_pseudonym": "anon_student_08",
+      "experiment_id": "exp-5",
+      "experiment_title": "SCR Phase Control Inverter",
+      "session_pseudonym": "sess_eee_2026_05",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "NONE_GENUINE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_08-EXP05_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_08-EXP05_endbox.png"
+      },
+      "capture_metadata": {
+        "device": "smartphone_camera_12mp",
+        "quality_condition": "NORMAL"
+      },
+      "ground_truth": {
+        "total_mark": 9.0,
+        "marks_breakdown": {
+          "prelab": 2.5,
+          "conduction": 3.5,
+          "calculation": 2.0,
+          "viva": 1.0
+        },
+        "date": "2026-10-12",
+        "page_range": "28-34",
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_A_EXACT_DUPLICATE",
+      "student_pseudonym": "anon_student_07",
+      "victim_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_A_EXACT_DUPLICATE",
+      "files": {
+        "index_image": "test/PAIR-TEST-ATTACK_A_EXACT_DUPLICATE_index.png",
+        "evaluation_image": "test/PAIR-TEST-ATTACK_A_EXACT_DUPLICATE_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "REJECT",
+        "reuse_detected": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_B_RESIZE",
+      "student_pseudonym": "anon_student_07",
+      "victim_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_B_RESIZE",
+      "files": {
+        "index_image": "test/PAIR-TEST-ATTACK_B_RESIZE_index.png",
+        "evaluation_image": "test/PAIR-TEST-ATTACK_B_RESIZE_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "reuse_detected": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_C_RECOMPRESSION",
+      "student_pseudonym": "anon_student_07",
+      "victim_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_C_RECOMPRESSION",
+      "files": {
+        "index_image": "test/PAIR-TEST-ATTACK_C_RECOMPRESSION_index.png",
+        "evaluation_image": "test/PAIR-TEST-ATTACK_C_RECOMPRESSION_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "reuse_detected": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_D_BRIGHTNESS",
+      "student_pseudonym": "anon_student_07",
+      "victim_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_D_BRIGHTNESS",
+      "files": {
+        "index_image": "test/PAIR-TEST-ATTACK_D_BRIGHTNESS_index.png",
+        "evaluation_image": "test/PAIR-TEST-ATTACK_D_BRIGHTNESS_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "reuse_detected": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_E_MILD_ROTATION",
+      "student_pseudonym": "anon_student_07",
+      "victim_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_E_MILD_ROTATION",
+      "files": {
+        "index_image": "test/PAIR-TEST-ATTACK_E_MILD_ROTATION_index.png",
+        "evaluation_image": "test/PAIR-TEST-ATTACK_E_MILD_ROTATION_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "reuse_detected": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_F_MILD_CROP",
+      "student_pseudonym": "anon_student_07",
+      "victim_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_F_MILD_CROP",
+      "files": {
+        "index_image": "test/PAIR-TEST-ATTACK_F_MILD_CROP_index.png",
+        "evaluation_image": "test/PAIR-TEST-ATTACK_F_MILD_CROP_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "reuse_detected": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_G_SCREENSHOT",
+      "student_pseudonym": "anon_student_07",
+      "victim_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_G_SCREENSHOT",
+      "files": {
+        "index_image": "test/PAIR-TEST-ATTACK_G_SCREENSHOT_index.png",
+        "evaluation_image": "test/PAIR-TEST-ATTACK_G_SCREENSHOT_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "reuse_detected": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_H_REPHOTOGRAPHED",
+      "student_pseudonym": "anon_student_07",
+      "victim_pseudonym": "anon_student_01",
+      "experiment_id": "exp-4",
+      "experiment_title": "RLC Resonance Circuit",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_H_REPHOTOGRAPHED",
+      "files": {
+        "index_image": "test/PAIR-TEST-ATTACK_H_REPHOTOGRAPHED_index.png",
+        "evaluation_image": "test/PAIR-TEST-ATTACK_H_REPHOTOGRAPHED_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW",
+        "reuse_detected": true
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_I_DIFF_WRITER_PAGE",
+      "student_pseudonym": "anon_student_08",
+      "experiment_id": "exp-4",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_I_DIFF_WRITER_PAGE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_08-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_01-EXP04_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_J_DIFF_EXPERIMENT",
+      "student_pseudonym": "anon_student_06",
+      "experiment_id": "exp-4",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_J_DIFF_EXPERIMENT",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_06-EXP01_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_06-EXP04_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_K_COPIED_INDEX_DIFF_ENDBOX",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-4",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_K_COPIED_INDEX_DIFF_ENDBOX",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_01-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_07-EXP04_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_L_DIFF_INDEX_COPIED_ENDBOX",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-4",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_L_DIFF_INDEX_COPIED_ENDBOX",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_07-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_01-EXP04_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "MANUAL_REVIEW"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_M_CROSS_STUDENT_REUSE",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-4",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_M_CROSS_STUDENT_REUSE",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_01-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_01-EXP04_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "REJECT"
+      },
+      "split": "test"
+    },
+    {
+      "sample_id": "PAIR-TEST-ATTACK_N_GENUINE_SELF",
+      "student_pseudonym": "anon_student_07",
+      "experiment_id": "exp-4",
+      "image_type": "DOCUMENT_PAIR",
+      "attack_type": "ATTACK_N_GENUINE_SELF",
+      "files": {
+        "index_image": "processed/index/PAIR-ANON_STUDENT_07-EXP04_index.png",
+        "evaluation_image": "processed/endbox/PAIR-ANON_STUDENT_07-EXP04_endbox.png"
+      },
+      "ground_truth": {
+        "ownership_decision": "PASS"
+      },
+      "split": "test"
+    }
+  ]
+}

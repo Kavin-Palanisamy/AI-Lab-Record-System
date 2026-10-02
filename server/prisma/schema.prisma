@@ -1,0 +1,130 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum RecordStatus {
+  PENDING
+  VERIFIED
+  REJECTED
+  MANUAL_REVIEW
+}
+
+enum SessionStatus {
+  DRAFT
+  ACTIVE
+  ENDED
+  LOCKED
+}
+
+model Student {
+  id             String      @id @default(uuid())
+  registerNumber String      @unique
+  name           String
+  email          String      @unique
+  passwordHash   String
+  className      String
+  section        String
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+  records        LabRecord[]
+
+  @@map("students")
+}
+
+model Faculty {
+  id           String       @id @default(uuid())
+  name         String
+  email        String       @unique
+  passwordHash String
+  department   String
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  sessions     LabSession[]
+
+  @@map("faculties")
+}
+
+model Experiment {
+  id               String       @id @default(uuid())
+  experimentNumber Int
+  title            String
+  subject          String
+  description      String
+  createdAt        DateTime     @default(now())
+  sessions         LabSession[]
+  records          LabRecord[]
+
+  @@map("experiments")
+}
+
+model LabSession {
+  id           String        @id @default(uuid())
+  experimentId String
+  facultyId    String
+  sessionDate  DateTime
+  sessionCode  String        @unique
+  subject      String        @default("Electrical Machines Laboratory")
+  className    String        @default("III EEE")
+  section      String        @default("A")
+  maxMark      Float         @default(10.0)
+  startTime    String?
+  endTime      String?
+  status       SessionStatus @default(ACTIVE)
+  lockedAt     DateTime?
+  createdAt    DateTime      @default(now())
+  experiment   Experiment    @relation(fields: [experimentId], references: [id])
+  faculty      Faculty       @relation(fields: [facultyId], references: [id])
+  records      LabRecord[]
+
+  @@map("lab_sessions")
+}
+
+model LabRecord {
+  id                            String        @id @default(uuid())
+  studentId                     String
+  experimentId                  String
+  labSessionId                  String
+  uniqueRecordCode              String        @unique
+  qrToken                       String        @unique
+  imagePath                     String?
+  detectedStudentRegisterNumber String?
+  detectedMark                  Float?
+  facultyAwardedMark            Float?
+  markVerificationStatus        String?
+  maxMark                       Float         @default(10.0)
+  status                        RecordStatus  @default(PENDING)
+  aiConfidence                  Float?
+  aiExtractedData               String?
+  facultySignaturePresent       Boolean?      @default(false)
+  manualReviewReason            String?
+  facultyCorrectionHistory       String?
+  submissionTimestamp           DateTime?
+  isLocked                      Boolean       @default(false)
+  createdAt                     DateTime      @default(now())
+  updatedAt                     DateTime      @updatedAt
+
+  student    Student    @relation(fields: [studentId], references: [id])
+  experiment Experiment @relation(fields: [experimentId], references: [id])
+  labSession LabSession @relation(fields: [labSessionId], references: [id])
+
+  @@unique([studentId, experimentId, labSessionId])
+  @@map("lab_records")
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  actorType  String
+  actorId    String
+  action     String
+  entityType String
+  entityId   String
+  metadata   String
+  createdAt  DateTime @default(now())
+
+  @@map("audit_logs")
+}

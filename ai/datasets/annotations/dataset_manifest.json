@@ -1,0 +1,10 @@
+{
+    "dataset_name": "SecureLab EEE Laboratory Record Dataset",
+    "version": "1.0",
+    "description": "Dataset created from genuine student laboratory-record submissions.",
+    "image_protocol": {
+        "image_1": "contents",
+        "image_2": "endbox"
+    },
+    "samples": []
+}
