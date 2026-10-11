@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-phase9-backup",
-  "timestamp": "2026-10-02T07:17:47.932Z",
-  "checksum": "a8743b464a0c974077e2ca2bf769eb0a8116656e86949af9d02ffde6c4787b45",
+  "timestamp": "2026-10-06T17:19:25.232Z",
+  "checksum": "bca7dfa526cb4cddd2eececa1f3c4a09bae7d1f9947bbfd3be4826722657a98f",
   "recordCount": 8,
   "auditLogCount": 6,
   "data": {
@@ -14,8 +14,8 @@
         "passwordHash": "$2a$10$6UB3AQyEvAh8VV3s86D1I.Uo1QS17/MCE.shGWs28PnafKpGaqXba",
         "className": "III EEE",
         "section": "A",
-        "createdAt": "2026-10-02T07:17:43.292Z",
-        "updatedAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z",
+        "updatedAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "student-arun-052",
@@ -25,8 +25,8 @@
         "passwordHash": "$2a$10$6UB3AQyEvAh8VV3s86D1I.Uo1QS17/MCE.shGWs28PnafKpGaqXba",
         "className": "III EEE",
         "section": "A",
-        "createdAt": "2026-10-02T07:17:43.292Z",
-        "updatedAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z",
+        "updatedAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "student-priya-053",
@@ -36,8 +36,8 @@
         "passwordHash": "$2a$10$6UB3AQyEvAh8VV3s86D1I.Uo1QS17/MCE.shGWs28PnafKpGaqXba",
         "className": "III EEE",
         "section": "A",
-        "createdAt": "2026-10-02T07:17:43.292Z",
-        "updatedAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z",
+        "updatedAt": "2026-10-06T17:19:20.258Z"
       }
     ],
     "faculties": [
@@ -47,8 +47,8 @@
         "email": "faculty@college.edu",
         "passwordHash": "$2a$10$6UB3AQyEvAh8VV3s86D1I.Uo1QS17/MCE.shGWs28PnafKpGaqXba",
         "department": "Department of Electrical and Electronics Engineering",
-        "createdAt": "2026-10-02T07:17:43.292Z",
-        "updatedAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z",
+        "updatedAt": "2026-10-06T17:19:20.258Z"
       }
     ],
     "experiments": [
@@ -61,7 +61,7 @@
         "endBoxPageNumber": 12,
         "maxMark": 10,
         "isActive": true,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "exp-2",
@@ -72,7 +72,7 @@
         "endBoxPageNumber": 18,
         "maxMark": 10,
         "isActive": true,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "exp-3",
@@ -83,7 +83,7 @@
         "endBoxPageNumber": 25,
         "maxMark": 10,
         "isActive": true,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "exp-4",
@@ -94,7 +94,7 @@
         "endBoxPageNumber": 32,
         "maxMark": 10,
         "isActive": true,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "exp-5",
@@ -105,7 +105,7 @@
         "endBoxPageNumber": 38,
         "maxMark": 10,
         "isActive": true,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "exp-6",
@@ -116,7 +116,7 @@
         "endBoxPageNumber": 44,
         "maxMark": 10,
         "isActive": true,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       }
     ],
     "sessions": [
@@ -134,7 +134,7 @@
         "endTime": "12:00 PM",
         "status": "ACTIVE",
         "lockedAt": null,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "session-11",
@@ -150,7 +150,7 @@
         "endTime": "12:00 PM",
         "status": "ACTIVE",
         "lockedAt": null,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       },
       {
         "id": "session-10",
@@ -166,14 +166,14 @@
         "endTime": "12:00 PM",
         "status": "ACTIVE",
         "lockedAt": null,
-        "createdAt": "2026-10-02T07:17:43.292Z"
+        "createdAt": "2026-10-06T17:19:20.258Z"
       },
       {
-        "id": "session-1790925463884-j7ubi",
+        "id": "session-1791307160988-3e8hm",
         "experimentId": "exp-4",
         "facultyId": "faculty-ramanathan-001",
         "sessionDate": "2026-09-23T00:00:00.000Z",
-        "sessionCode": "PILOT-EEE-2026-1790925463880",
+        "sessionCode": "PILOT-EEE-2026-1791307160981",
         "subject": "Electrical Machines Laboratory",
         "className": "III EEE",
         "section": "A",
@@ -182,7 +182,7 @@
         "endTime": "12:00 PM",
         "status": "ACTIVE",
         "lockedAt": null,
-        "createdAt": "2026-10-02T07:17:43.884Z"
+        "createdAt": "2026-10-06T17:19:20.988Z"
       }
     ],
     "records": [
@@ -191,7 +191,7 @@
         "studentId": "student-kavin-048",
         "experimentId": "exp-1",
         "labSessionId": "session-11",
-        "uniqueRecordCode": "LAB-048-EXP01-SESSION11-487D680D",
+        "uniqueRecordCode": "LAB-048-EXP01-SESSION11-38F2B278",
         "qrToken": "kavin-qr-token-exp01-verified",
         "imagePath": null,
         "detectedStudentRegisterNumber": "048",
@@ -206,7 +206,7 @@
         "studentId": "student-kavin-048",
         "experimentId": "exp-2",
         "labSessionId": "session-10",
-        "uniqueRecordCode": "LAB-048-EXP02-SESSION10-01E152E8",
+        "uniqueRecordCode": "LAB-048-EXP02-SESSION10-D9EE5CD7",
         "qrToken": "kavin-qr-token-exp02-pending",
         "imagePath": null,
         "detectedStudentRegisterNumber": "048",
@@ -221,7 +221,7 @@
         "studentId": "student-kavin-048",
         "experimentId": "exp-3",
         "labSessionId": "session-12",
-        "uniqueRecordCode": "LAB-048-EXP03-SESSION12-539EFE99",
+        "uniqueRecordCode": "LAB-048-EXP03-SESSION12-B0AFA27F",
         "qrToken": "kavin-qr-token-secure-exp03-2026",
         "imagePath": null,
         "detectedStudentRegisterNumber": null,
@@ -236,7 +236,7 @@
         "studentId": "student-arun-052",
         "experimentId": "exp-3",
         "labSessionId": "session-12",
-        "uniqueRecordCode": "LAB-052-EXP03-SESSION12-716C63A8",
+        "uniqueRecordCode": "LAB-052-EXP03-SESSION12-ED3219B2",
         "qrToken": "arun-qr-token-secure-exp03-2026",
         "imagePath": null,
         "detectedStudentRegisterNumber": null,
@@ -251,7 +251,7 @@
         "studentId": "student-priya-053",
         "experimentId": "exp-3",
         "labSessionId": "session-12",
-        "uniqueRecordCode": "LAB-053-EXP03-SESSION12-8DB0F88A",
+        "uniqueRecordCode": "LAB-053-EXP03-SESSION12-8BA85DB5",
         "qrToken": "priya-qr-token-secure-exp03-2026",
         "imagePath": null,
         "detectedStudentRegisterNumber": null,
@@ -262,12 +262,12 @@
         "updatedAt": "2026-09-28T09:30:00.000Z"
       },
       {
-        "id": "record-1790925463890-5v8i0",
+        "id": "record-1791307161004-fbebu",
         "studentId": "student-kavin-048",
         "experimentId": "exp-4",
-        "labSessionId": "session-1790925463884-j7ubi",
-        "uniqueRecordCode": "LAB-048-EXP04-PILOTEEE20261790925463880-922E5990",
-        "qrToken": "v1.eyJyZWNvcmRJZCI6InJlY29yZC0xNzkwOTI1NDYzODkwLTV2OGkwIiwic2Vzc2lvbklkIjoic2Vzc2lvbi0xNzkwOTI1NDYzODg0LWo3dWJpIiwiZXhwZXJpbWVudElkIjoiZXhwLTQiLCJpc3N1ZWRBdCI6MTc5MDkyNTQ2Mzg5MCwiZXhwaXJlc0F0IjoxNzkzNTE3NDYzODkwLCJ2ZXJzaW9uIjoxfQ.7NAjqC2uTb65PblaqWR_gOrS6lq09En5jGEm3lnMldQ",
+        "labSessionId": "session-1791307160988-3e8hm",
+        "uniqueRecordCode": "LAB-048-EXP04-PILOTEEE20261791307160981-FE1898AA",
+        "qrToken": "v1.eyJyZWNvcmRJZCI6InJlY29yZC0xNzkxMzA3MTYxMDA0LWZiZWJ1Iiwic2Vzc2lvbklkIjoic2Vzc2lvbi0xNzkxMzA3MTYwOTg4LTNlOGhtIiwiZXhwZXJpbWVudElkIjoiZXhwLTQiLCJpc3N1ZWRBdCI6MTc5MTMwNzE2MTAwNCwiZXhwaXJlc0F0IjoxNzkzODk5MTYxMDA0LCJ2ZXJzaW9uIjoxfQ._t2Lm8dwB2C-7MvofQZUA7eHdg1ojk8aNf85Ftj6WE0",
         "imagePath": null,
         "detectedStudentRegisterNumber": null,
         "detectedMark": null,
@@ -283,16 +283,16 @@
         "lastSubmittedAt": null,
         "submissionCount": 0,
         "lifecycleState": "SUBMITTABLE",
-        "createdAt": "2026-10-02T07:17:43.890Z",
-        "updatedAt": "2026-10-02T07:17:43.890Z"
+        "createdAt": "2026-10-06T17:19:21.004Z",
+        "updatedAt": "2026-10-06T17:19:21.004Z"
       },
       {
-        "id": "record-1790925463890-rlfzy",
+        "id": "record-1791307161004-ou503",
         "studentId": "student-arun-052",
         "experimentId": "exp-4",
-        "labSessionId": "session-1790925463884-j7ubi",
-        "uniqueRecordCode": "LAB-052-EXP04-PILOTEEE20261790925463880-5044F82D",
-        "qrToken": "v1.eyJyZWNvcmRJZCI6InJlY29yZC0xNzkwOTI1NDYzODkwLXJsZnp5Iiwic2Vzc2lvbklkIjoic2Vzc2lvbi0xNzkwOTI1NDYzODg0LWo3dWJpIiwiZXhwZXJpbWVudElkIjoiZXhwLTQiLCJpc3N1ZWRBdCI6MTc5MDkyNTQ2Mzg5MCwiZXhwaXJlc0F0IjoxNzkzNTE3NDYzODkwLCJ2ZXJzaW9uIjoxfQ.NmfonDgQ5vLoLKXef3ZK5aOPLlJKwK2mfkdE93-ALEI",
+        "labSessionId": "session-1791307160988-3e8hm",
+        "uniqueRecordCode": "LAB-052-EXP04-PILOTEEE20261791307160981-2C9D498F",
+        "qrToken": "v1.eyJyZWNvcmRJZCI6InJlY29yZC0xNzkxMzA3MTYxMDA0LW91NTAzIiwic2Vzc2lvbklkIjoic2Vzc2lvbi0xNzkxMzA3MTYwOTg4LTNlOGhtIiwiZXhwZXJpbWVudElkIjoiZXhwLTQiLCJpc3N1ZWRBdCI6MTc5MTMwNzE2MTAwNCwiZXhwaXJlc0F0IjoxNzkzODk5MTYxMDA0LCJ2ZXJzaW9uIjoxfQ.S7gcEGHeQPlQ6QJ9bIwdAhHm8XpbN_WKw0DqhIx7-zQ",
         "imagePath": null,
         "detectedStudentRegisterNumber": null,
         "detectedMark": null,
@@ -308,16 +308,16 @@
         "lastSubmittedAt": null,
         "submissionCount": 0,
         "lifecycleState": "SUBMITTABLE",
-        "createdAt": "2026-10-02T07:17:43.890Z",
-        "updatedAt": "2026-10-02T07:17:43.890Z"
+        "createdAt": "2026-10-06T17:19:21.004Z",
+        "updatedAt": "2026-10-06T17:19:21.004Z"
       },
       {
-        "id": "record-1790925463890-l43a5",
+        "id": "record-1791307161004-5pj88",
         "studentId": "student-priya-053",
         "experimentId": "exp-4",
-        "labSessionId": "session-1790925463884-j7ubi",
-        "uniqueRecordCode": "LAB-053-EXP04-PILOTEEE20261790925463880-BC9D54AE",
-        "qrToken": "v1.eyJyZWNvcmRJZCI6InJlY29yZC0xNzkwOTI1NDYzODkwLWw0M2E1Iiwic2Vzc2lvbklkIjoic2Vzc2lvbi0xNzkwOTI1NDYzODg0LWo3dWJpIiwiZXhwZXJpbWVudElkIjoiZXhwLTQiLCJpc3N1ZWRBdCI6MTc5MDkyNTQ2Mzg5MCwiZXhwaXJlc0F0IjoxNzkzNTE3NDYzODkwLCJ2ZXJzaW9uIjoxfQ.82dAdDFd73zm4QqAreNdC9pyd-hayPvdPDYYqwb0jeU",
+        "labSessionId": "session-1791307160988-3e8hm",
+        "uniqueRecordCode": "LAB-053-EXP04-PILOTEEE20261791307160981-760B1B61",
+        "qrToken": "v1.eyJyZWNvcmRJZCI6InJlY29yZC0xNzkxMzA3MTYxMDA0LTVwajg4Iiwic2Vzc2lvbklkIjoic2Vzc2lvbi0xNzkxMzA3MTYwOTg4LTNlOGhtIiwiZXhwZXJpbWVudElkIjoiZXhwLTQiLCJpc3N1ZWRBdCI6MTc5MTMwNzE2MTAwNCwiZXhwaXJlc0F0IjoxNzkzODk5MTYxMDA0LCJ2ZXJzaW9uIjoxfQ.R7klvZzMtvnzRd8gJBGIcVXDTrFLrjFOaVtplhWs2Gs",
         "imagePath": null,
         "detectedStudentRegisterNumber": null,
         "detectedMark": null,
@@ -333,70 +333,70 @@
         "lastSubmittedAt": null,
         "submissionCount": 0,
         "lifecycleState": "SUBMITTABLE",
-        "createdAt": "2026-10-02T07:17:43.890Z",
-        "updatedAt": "2026-10-02T07:17:43.890Z"
+        "createdAt": "2026-10-06T17:19:21.004Z",
+        "updatedAt": "2026-10-06T17:19:21.004Z"
       }
     ],
     "auditLogs": [
       {
-        "id": "audit-1790925463890-vgcip1g",
+        "id": "audit-1791307161004-z840b7g",
         "actorType": "FACULTY",
         "actorId": "faculty-ramanathan-001",
         "action": "RECORDS_GENERATED",
         "entityType": "LabSession",
-        "entityId": "session-1790925463884-j7ubi",
-        "metadata": "{\"sessionCode\":\"PILOT-EEE-2026-1790925463880\",\"experimentTitle\":\"RLC Series and Parallel Resonance\",\"totalRequested\":3,\"totalProcessed\":3}",
-        "createdAt": "2026-10-02T07:17:43.890Z"
+        "entityId": "session-1791307160988-3e8hm",
+        "metadata": "{\"sessionCode\":\"PILOT-EEE-2026-1791307160981\",\"experimentTitle\":\"RLC Series and Parallel Resonance\",\"totalRequested\":3,\"totalProcessed\":3}",
+        "createdAt": "2026-10-06T17:19:21.004Z"
       },
       {
-        "id": "audit-1790925463884-vp651sx",
+        "id": "audit-1791307160988-agkxgsz",
         "actorType": "FACULTY",
         "actorId": "faculty-ramanathan-001",
         "action": "SESSION_CREATED",
         "entityType": "LabSession",
-        "entityId": "session-1790925463884-j7ubi",
-        "metadata": "{\"sessionCode\":\"PILOT-EEE-2026-1790925463880\",\"experimentId\":\"exp-4\",\"subject\":\"Electrical Machines Laboratory\",\"className\":\"III EEE\"}",
-        "createdAt": "2026-10-02T07:17:43.884Z"
+        "entityId": "session-1791307160988-3e8hm",
+        "metadata": "{\"sessionCode\":\"PILOT-EEE-2026-1791307160981\",\"experimentId\":\"exp-4\",\"subject\":\"Electrical Machines Laboratory\",\"className\":\"III EEE\"}",
+        "createdAt": "2026-10-06T17:19:20.988Z"
       },
       {
-        "id": "audit-1790925463877-qqt85ch",
+        "id": "audit-1791307160972-cujrod3",
         "actorType": "FACULTY",
         "actorId": "faculty-ramanathan-001",
         "action": "FACULTY_LOGIN",
         "entityType": "Auth",
         "entityId": "faculty-ramanathan-001",
         "metadata": "{\"email\":\"faculty@college.edu\",\"department\":\"Department of Electrical and Electronics Engineering\"}",
-        "createdAt": "2026-10-02T07:17:43.877Z"
+        "createdAt": "2026-10-06T17:19:20.972Z"
       },
       {
-        "id": "audit-1790925463743-2ilqelu",
+        "id": "audit-1791307160818-xrnmes3",
         "actorType": "STUDENT",
         "actorId": "student-priya-053",
         "action": "STUDENT_LOGIN",
         "entityType": "Auth",
         "entityId": "student-priya-053",
         "metadata": "{\"registerNumber\":\"053\"}",
-        "createdAt": "2026-10-02T07:17:43.743Z"
+        "createdAt": "2026-10-06T17:19:20.818Z"
       },
       {
-        "id": "audit-1790925463617-ahd9umo",
+        "id": "audit-1791307160627-f8m44eh",
         "actorType": "STUDENT",
         "actorId": "student-arun-052",
         "action": "STUDENT_LOGIN",
         "entityType": "Auth",
         "entityId": "student-arun-052",
         "metadata": "{\"registerNumber\":\"052\"}",
-        "createdAt": "2026-10-02T07:17:43.617Z"
+        "createdAt": "2026-10-06T17:19:20.627Z"
       },
       {
-        "id": "audit-1790925463461-jy6k8tv",
+        "id": "audit-1791307160443-v6b8baj",
         "actorType": "STUDENT",
         "actorId": "student-kavin-048",
         "action": "STUDENT_LOGIN",
         "entityType": "Auth",
         "entityId": "student-kavin-048",
         "metadata": "{\"registerNumber\":\"048\"}",
-        "createdAt": "2026-10-02T07:17:43.461Z"
+        "createdAt": "2026-10-06T17:19:20.443Z"
       }
     ]
   }

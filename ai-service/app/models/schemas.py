@@ -111,3 +111,38 @@ class AnalysisResponse(BaseModel):
     templateRegions: Optional[TemplateRegions] = None
     retakeGuidance: List[str] = Field(default_factory=list)
     message: Optional[str] = None
+
+# ════════════════════════════════════════════════════════════════════════════
+# Phase 2: Gemini Pretrained Vision Extraction Schemas
+# ════════════════════════════════════════════════════════════════════════════
+
+class ContentsData(BaseModel):
+    experiment_no: Optional[int] = None
+    title: Optional[str] = None
+    date: Optional[str] = None
+    page_no: Optional[int] = None
+    marks: Optional[float] = None
+    signature_present: Optional[bool] = None
+
+class EndBoxData(BaseModel):
+    experiment_no: Optional[int] = None
+    page_no: Optional[int] = None
+    pre_lab: Optional[float] = None
+    execution: Optional[float] = None
+    result: Optional[float] = None
+    post_lab: Optional[float] = None
+    lab_record: Optional[float] = None
+    total: Optional[float] = None
+    signature_present: Optional[bool] = None
+
+class GeminiExtractionResult(BaseModel):
+    contents: ContentsData = Field(default_factory=ContentsData)
+    endbox: EndBoxData = Field(default_factory=EndBoxData)
+    image1_is_contents_page: bool = False
+    image2_is_endbox_page: bool = False
+    legibility: str = "good"  # "good" | "fair" | "poor"
+    error: Optional[str] = None
+    is_fallback: bool = False
+    model_used: Optional[str] = None
+
+
